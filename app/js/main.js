@@ -7,7 +7,7 @@ $('.slider__body').slick({
 	slidesToShow: 1,
 	slidesToScroll: 1,
 	asNavFor: '.slider__nav',
-	arrows: false,
+	arrows: true,
 });
 
 $('.slider__nav').slick({

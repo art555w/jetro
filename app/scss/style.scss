@@ -242,27 +242,28 @@ ul {
 	}
 }
 
-// .slick-arrow {
-// 	position: absolute;
-// 	z-index: 1;
-// 	width: 36px;
-// 	height: 52px;
-// 	border: none;
-// 	background-color: transparent;
-// 	// color: transparent;
-// }
+.slick-arrow {
+	outline: none !important;
+	position: absolute;
+	z-index: 1;
+	width: 36px;
+	height: 52px;
+	border: none;
+	background-color: transparent;
+	color: transparent;
+}
 
-// .slick-prev {
-// 	top: 50px;
-// 	left: 0;
-// 	background-image: url(../images/icon/left.svg);
-// }
+.slick-prev {
+	top: 159px;
+	left: 25px;
+	background-image: url(../images/icon/left.svg);
+}
 
-// .slick-next {
-// 	top: 50px;
-// 	right: 0;
-// 	background-image: url(../images/icon/next.svg);
-// }
+.slick-next {
+	top: 159px;
+	right: 25px;
+	background-image: url(../images/icon/next.svg);
+}
 
 // ======================================================================================
 

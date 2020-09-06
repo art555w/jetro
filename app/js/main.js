@@ -18,43 +18,12 @@ $('.slider__nav').slick({
 	arrows: false,
 	responsive: [
 		{
-			breakpoint: 960,
+			breakpoint: 980,
 			settings: {
 				slidesToShow: 5,
 				slidesToScroll: 1,
-				focusOnSelect: true
-			}
-		},
-		{
-			breakpoint: 800,
-			settings: {
-				slidesToShow: 4,
-				slidesToScroll: 1,
-				focusOnSelect: true
-			}
-		},
-		{
-			breakpoint: 670,
-			settings: {
-				slidesToShow: 3,
-				slidesToScroll: 1,
-				focusOnSelect: true
-			}
-		},
-		{
-			breakpoint: 500,
-			settings: {
-				slidesToShow: 2,
-				slidesToScroll: 1,
-				focusOnSelect: true
-			}
-		},
-		{
-			breakpoint: 350,
-			settings: {
-				slidesToShow: 1,
-				slidesToScroll: 1,
-				focusOnSelect: true
+				focusOnSelect: true,
+				infinite: true
 			}
 		},
 	]
